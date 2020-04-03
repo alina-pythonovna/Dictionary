@@ -100,6 +100,6 @@ class UiMainWindow(object):
             res = word_handler.update()  # TODO: handle response
             self.lineEdit.clear()
 
-            msg.exec_()  # TODO: what does it mean ?
+            x = msg.exec_()  # TODO: what does it mean ?
         else:
             pass
